@@ -1,0 +1,11 @@
+<div *ngIf="(holidayDetails!= undefined)">
+    <h2>Holiday Details</h2>
+    <ul>
+        <li><b>Date:-</b> {{holidayDetails[0].date}}
+        </li>
+        <li><b>occasion:-</b>{{holidayDetails[0].name}}
+        </li>
+    </ul>
+    <button [routerLink]="['/home']">Back to Home</button>
+</div>
+

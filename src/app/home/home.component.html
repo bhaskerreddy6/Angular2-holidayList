@@ -1,0 +1,6 @@
+<h1>Holidays List</h1>
+<ul>
+    <li *ngFor="let day of holidayDates">
+        <a [routerLink]="['/detail',day]">{{day}}</a>
+    </li>
+</ul>
